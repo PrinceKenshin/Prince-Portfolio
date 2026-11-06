@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-pt-40 sm:scroll-pt-24">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prince kenshin T. Tatoy | Student Portfolio</title>
+        <meta
+            name="description"
+            content="Prince Kenshin T. Tatoy first-year IT portfolio: beginner web projects, class notes, and the skills he is learning."
+        >
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.1.11"></script>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+
+            a:focus-visible {
+                outline: 3px solid #93c5fd;
+                outline-offset: 5px;
+            }
+
+            .skip-link {
+                position: fixed;
+                z-index: 60;
+                top: -80px;
+                left: 20px;
+                padding: 5px 10px;
+                background-color: #0f175a;
+                color: #ffffff;
+            }
+
+            .skip-link:focus {
+                top: 10px;
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                html {
+                    scroll-behavior: auto;
+                }
+
+                a {
+                    transition: none;
+                }
+            }
+        </style>
+    </head>
+    <body class="bg-slate-900 pt-36 font-sans leading-relaxed text-slate-100 sm:pt-20">
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header
+            class="fixed inset-x-0 top-0 z-50 h-36 border-b border-slate-600 bg-slate-900/95 backdrop-blur-sm sm:h-20"
+        >
+            <div
+                class="mx-auto flex h-full max-w-6xl flex-wrap items-center justify-between gap-5 px-6 py-5"
+            >
+                <a class="text-xl font-semibold tracking-tight" href="#home">Prince Kenshin T. Tatoy<span class="text-blue-300">.</span></a>
+                <nav class="flex w-full flex-wrap gap-5 sm:w-auto" aria-label="Main navigation">
+                    <a class="text-slate-300 hover:text-blue-300 py-2 text-sm" href="#home">Home</a>
+                    <a class="text-slate-300 hover:text-blue-300 py-2 text-sm" href="#about">About</a>
+                    <a class="text-slate-300 hover:text-blue-300 py-2 text-sm" href="#skills">Skills</a>
+                    <a class="text-slate-300 hover:text-blue-300 py-2 text-sm" href="#projects">Projects</a>
+                    <a class="text-slate-300 hover:text-blue-300 py-2 text-sm" href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main id="main" class="mx-auto max-w-6xl px-6" tabindex="-1">
+            <section
+                id="home"
+                class="grid items-center gap-12 py-12 md:grid-cols-2 md:py-16"
+                aria-label="Introduction"
+            >
+                <div>
+                    <p class="mb-5 font-mono text-sm text-blue-300">BSIT / FIRST YEAR</p>
+                    <h1 class="mb-6 text-5xl font-semibold leading-tight tracking-tight md:text-6xl">Hi, I’m Ken.<br><span class="text-blue-300">New to IT.<br>Starting his career.</span></h1>
+                    <p class="max-w-xl text-lg text-slate-300">
+                        I'm learning to build webpages from scratch and continuing to develop my skills by creating more projects.
+                    </p>
+                    <div class="mt-8 flex flex-wrap items-center gap-6">
+                        <a
+                            class="rounded bg-blue-300 px-5 py-3 font-semibold text-slate-900 transition hover:bg-blue-200"
+                            href="#projects"
+                        >
+                            See my projects
+                        </a>
+                        <a
+                            class="text-slate-100 underline underline-offset-4 hover:text-blue-300"
+                            href="#about"
+                        >
+                            More about me
+                        </a>
+                    </div>
+                </div>
+                <figure class="mx-auto w-full max-w-sm">
+                    <img
+                        class="w-full rounded-md bg-slate-800 object-contain"
+                        src="Assets/images/Prince_kenshin_T__Tatoy.jpg"
+                        alt="Portrait of Prince Kenshin T. Tatoy"
+                        width="500"
+                        height="500"
+                    >
+                    <figcaption class="mt-3 flex justify-between gap-4 text-xs text-slate-300"><span>Prince Kenshin T. Tatoy</span><span>First year · BSIT</span></figcaption>
+                </figure>
+            </section>
+            <section
+                id="about"
+                class="grid gap-12 border-t border-slate-600 py-16 md:grid-cols-2"
+                aria-labelledby="about-title"
+            >
+                <div>
+                    <p class="mb-4 font-mono text-sm text-blue-300">A LITTLE BACKGROUND</p>
+                    <h2 id="about-title" class="mb-6 text-3xl font-semibold tracking-tight md:text-4xl">Figuring things out,<br>one step at a time.</h2>
+                    <p class="mb-5 text-slate-300">
+                        My name is Prince Kenshin T. Tatoy, a first-year student at Cordova Public College, currently pursuing a degree in Information Technology.
+
+I have completed several beginner-level programming projects, including a simple calculator, and have foundational knowledge of the C programming language.
+
+In the field of web development, I have created my own online portfolio using Google Sites. I am currently expanding my skills by learning HTML and Tailwind CSS, with the goal of developing my own portfolio website through coding.
+                    </p>
+                  
+                    <p class="mb-5 text-slate-300">
+                        As a beginner in the field of Information Technology, I still struggle with many things, and some topics can be quite challenging to understand. However, I see these challenges as part of my learning journey and an opportunity to improve myself.
+                    </p>
+                    <p class="text-slate-300">
+                        Whenever I feel stressed or overwhelmed, I like to relax by listening to music and enjoying delicious food. These simple activities help me refresh my mind, regain my focus, and get back to learning.
+                    </p>
+                    
+                </div>
+                <div>
+                    <aside class="rounded-md bg-slate-800 p-6">
+                        <p class="mb-4 font-mono text-xs text-blue-300">MY COLLEGE CHAPTER</p>
+                        <h3 class="mb-3 text-xl font-semibold">BS Information Technology</h3>
+                        <p class="mb-4 text-slate-300">Cordova Public College<br>First year · 2026 — Present</p>
+                        <p class="text-sm text-slate-300">Introduction to Computing, Computer Programming, and Web Development Fundamentals.</p>
+                    </aside>
+                    <p class="mt-6 text-slate-300">
+                       This year, I want to learn the basics of coding and build a strong foundation for my long journey in Information Technology.
+                    </p>
+                </div>
+            </section>
+            <section id="skills" class="py-16" aria-labelledby="skills-title">
+                <p class="mb-4 font-mono text-sm text-blue-300">WHAT I’M LEARNING</p>
+                <h2 id="skills-title" class="mb-8 text-3xl font-semibold tracking-tight md:text-4xl">Multiple apps and codes</h2>
+                <div class="grid gap-x-12 md:grid-cols-3">
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-sm text-blue-300">01 / PAGE STRUCTURE</p>
+                        <h3 class="mb-3 text-2xl font-semibold">HTML</h3>
+                        <p class="text-slate-300">
+                            I have learned the basic HTML structure, starting with "!DOCTYPE html", and other elements such as paragraphs ("p"), headings ("h1"), links ("a href"), images ("img src"), and many more.
+                        </p>
+                    </article>
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-sm text-blue-300">02 / C language Output &amp; Input </p>
+                        <h3 class="mb-3 text-2xl font-semibold">C language Programming</h3>
+                        <p class="text-slate-300">
+                            I have learned the basics of C programming, including how to use input and output functions to communicate with the computer. I have also learned about loops, conditional statements, and operators, which help control how a program works and processes information.
+                        </p>
+                    </article>
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-sm text-blue-300">03 / UTILITY &amp; TOOLS</p>
+                        <h3 class="mb-3 text-2xl font-semibold">Tailwind CSS</h3>
+                        <p class="text-slate-300">
+                            Familiarizing myself with Tailwind CSS's ready-made styling classes, applying them to my HTML, and understanding how each class affects the appearance and layout of my webpage.
+                        </p>
+                    </article>
+                    
+                </div>
+            </section>
+            <section id="projects" class="py-16" aria-labelledby="projects-title">
+                <div class="mb-10 grid items-end gap-6 md:grid-cols-2">
+                    <div>
+                        <p class="mb-4 font-mono text-xl text-blue-300">CLASSWORK &amp; PRACTICE</p>
+                        <h2 id="projects-title" class="text-3xl font-semibold tracking-tight md:text-4xl">My Beginner Works</h2>
+                    </div>
+                    <p class="text-slate-200">Below are my three small projects on different subjects. The image previews show what I worked on.</p>
+                </div>
+                <div class="space-y-12">
+                    <article class="grid items-center gap-8 border-t border-slate-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="Assets/images/My_profile.jpg"
+                            alt="Screenshot of my first HTML page with the heading I am Prince kenshin T. Tatoy, an About Me section and My Interests"
+                            width="800"
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-sm text-blue-300">01 / PURE HTML</p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">A Page About Me</h3>
+                            <p class="mb-5 text-slate-300">
+                                A brief introduction about my student life and a little glimpse into my interests.
+
+                            And my very first HTML code.
+                  </p>
+                            <a
+                                class="text-sm text-blue-400 underline underline-offset-4 hover:text-blue-200"
+                                href="Assets/images/My_profile.jpg" target="_blank" rel="noopener"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                    <article class="grid items-center gap-8 border-t border-slate-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="Assets/images/Codessecond.jpg"
+                            alt="Screenshot of a C program in an online editor that adds, subtracts, multiplies and divides two numbers, with its output"
+                            width="800"
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-blue-300">02 / C language &amp; Programming</p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">Simple Calculator</h3>
+                            <p class="mb-5 text-slate-300">
+                                I made a simple calculator using C Programming language.
+                                It include Sum,Difference,Product and Quotient.
+                              
+                            </p>
+                            <a
+                                class="text-sm text-blue-400 underline underline-offset-4 hover:text-blue-200"
+                                href="Assets/images/Codessecond.jpg" target="_blank" rel="noopener"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                    <article class="grid items-center gap-8 border-t border-slate-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="Assets/images/Online-portfolio.jpg"
+                            alt="Screenshot of my Google Sites portfolio with the title My Portfolio and a short introduction"
+                            width="800"
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-blue-300">03 / Online Portfolio</p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">Online Portfolio using google site</h3>
+                            <p class="mb-5 text-slate-300">
+                                I created my very first online portfolio using Google Sites. After uploading and publishing it, I now have my very own website where I can showcase my work, skills, and achievements.
+                            </p>
+                            <a
+                                class="text-sm text-blue-400 underline underline-offset-4 hover:text-blue-200"
+                                href="Assets/images/Online-portfolio.jpg" target="_blank" rel="noopener"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section
+                id="contact"
+                class="grid items-start gap-12 border-t border-slate-600 py-16 md:grid-cols-2"
+                aria-label="Contact"
+            >
+                <div>
+                    <p class="mb-4 font-mono text-sm text-blue-300">CONTACT</p>
+                    <h2 class="mb-6 text-4xl font-semibold tracking-tight md:text-5xl">Got a simple task<br>on your mind?</h2>
+                    <p class="max-w-lg text-slate-300">
+                        You can reach out to me for simple tasks or group projects. I'm always open to participating in activities that will help me grow, learn new things, and become more knowledgeable.
+                    </p>
+                </div>
+                <div class="rounded-md bg-slate-800 p-6 md:p-8">
+                    <p class="mb-4 text-sm text-slate-300">Say hello at</p>
+                    <a
+                        class="break-words text-xl font-semibold text-blue-300 underline underline-offset-4 hover:text-blue-200"
+                        href="mailto:Princekenshintatoy@gmail.com"
+                    >
+                        Princekenshintatoy@gmail.com
+                    </a>
+                    <div class="mt-8 border-t border-slate-600 pt-5 text-sm text-slate-300">
+                        <p>Lapu-Lapu City, Philippines</p>
+                        <p class="mt-2"> Cordova Public College · BSIT</p>
+                        <p class="mt-4">You can find me at the library after class</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="border-t border-slate-600">
+            <div
+                class="mx-auto flex max-w-6xl flex-wrap justify-between gap-3 px-6 py-6 text-sm text-slate-300"
+            >
+                <p>© 2026 Prince Kenshin T. Tatoy</p>
+                <p>BSIT, first year · Lapu-Lapu City</p>
+            </div>
+        </footer>
+    </body>
+</html>
